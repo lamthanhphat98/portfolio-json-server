@@ -1,149 +1,277 @@
 {
-    "technologies": [
-        {
-            "id": 1,
-            "name": "C#",
-            "project_number": 7
-        },
-        {
-            "id": 2,
-            "name": "Angular",
-            "project_number": 10
-        }
-    ],
-    "project_done": [
-        {
-            "id": 1,
-     
-            "subject": [
-                {
-                    "id": 1,
-                    "name": "C#"
-                },
-                {
-                    "id": 2,
-                    "name": "Java"
-                },
-                {
-                    "id": 3,
-                    "name": "ReactJS"
-                }
-            ],
-            "description": [
-                {
-                    "id": 1,
-                    "content": "Automated Testing cho phép bạn khai báo các test script, test case và đưa nó vào để test cho app của bạn. Ở đây chúng tôi chia làm 4 thành phần chính để cấu tạo nên một ứng dụng Automated Testing. Bao gồm :",
-                    "component": [
-                        {
-                            "content": "Thành phần đầu tiên là Java Application. Ở đây chúng tôi xây dựng ứng dụng API Java với Framework là Spring Boot",
-                            "features": [
-                                {
-                                    "content": "Các API cung cấp chức năng cho thành phần Web Application (ReactJS)"
-                                },
-                                {
-                                    "content": "Các API cung cấp chức năng cho thành phần Desktop Application (C#)"
-                                },
-                                {
-                                    "content": "Có hệ thống tự động chấm điểm và trả kết quả dựa vào Azure DevOps và kết hợp với một số công cụ để kiểm tra về coding convention theo yêu cầu của giảng viên"
-                                }
-                            ]
-                        },
-                        {
-                            "content": "Thành phần kế tiếp là Desktop Application (Winform C#). Ở đây chúng tôi xây dựng ứng dụng Desktop để giao tiếp với API trong việc nộp bài và lấy kết quả.",
-                            "features": [
-                                {
-                                    "content": "Giao diện cho sinh viên làm bài, nộp bài, xem kết quả."
-                                },
-                                {
-                                    "content": "Giao diện cho giảng viên tạo bài thực hành, xem danh sách sinh viên làm bài, trả điểm về cho sinh viên sau khi đã chấm xong."
-                                },
-                                {
-                                    "content": "Sinh viên và Giảng viên giao tiếp thông qua TCP/IP. Đảm bảo rằng sự kết nối sẽ không bị lộ ra bằng cách mã hóa kết nối bằng key."
-                                }
-                            ]
-                        },
-                        {
-                            "content": "Thành phần thứ ba là Front-End Web Application (ReactJS). Ở đây chúng tôi xây dựng ứng dụng Web để giao tiếp với API trong việc tạo các test script,test case cho mục đích test các bài thực hành.",
-                            "features": [
-                                {
-                                    "content": "Giao diện cho giảng viên thực hiện tạo bài thực hành và các test script, test case."
-                                },
-                                {
-                                    "content": "Giao diện cho người quản lý tạo ra các hành động (action) để cho giảng viên có thể sử dụng tạo ra test script"
-                                },
-                                {
-                                    "content": "Giao diện cho giảng viên xem lại các test script, test case đã tạo và tải về cho mục đích thực hiện việc test các bài thực hành."
-                                }
-                            ]
-                        },
-                        {
-                            "content": "Thành phần thứ tư là Azure DevOps. Ở đây chúng tôi dựa vào việc xử lý các pipelines mà Azure cung cấp sẵn để thực hiện việc Automated Testing.",
-                            "features": [
-                                {
-                                    "content": "Các pipelines được tạo sẵn cho người dùng."
-                                },
-                                {
-                                    "content": "Tự động chạy pipelines khi có sự thay đổi ở Repository đã cấu hình."
-                                },
-                                {
-                                    "content": "Các API cho việc lấy dữ liệu sau khi đã test thành công."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "name": "Automated Testing",
-            "image_Url": "https://www.forecast.app/hubfs/New%20Website%20/integrations-logos/Azure%20DevOps.png"
-        },
-        {
-            "id": 2,
-            "subject": [
-                {
-                    "id": 1,
-                    "name": "C#"
-                },
-                {
-                    "id": 2,
-                    "name": "Angular"
-                }
-            ],
-            "description": [
-                {
-                    "id": 1,
-                    "content": "Building Team FIFA 20 cho phép bạn xây dựng một đội hình cầu thủ mùa 2020 theo ý muốn của bạn và một đội bóng hoàn chỉnh sẽ có 11 cầu thủ gồm 3 chỉ số tổng là phòng thủ, tấn công và trung vệ. Ứng dụng được xây dựng trên :",
-                    "component": [
-                        {
-                            "content": "Thành phần đầu tiên là .NET Core Application. Ở đây chúng tôi xây dựng ứng dụng API Web với Framework là .NET CORE",
-                            "features": [
-                                {
-                                    "content": "Các API cung cấp chức năng cho thành phần Web Application (Angular JS)"
-                                },
-                                {
-                                    "content": "Các API cung cấp chức năng cho thành phần thu thập dữ liệu cầu thủ từ nhiều trang web (Crawling data)"
-                                }
-                            ]
-                        },
-                        {
-                            "content": "Thành phần kế tiếp là Web Application (Angular 8). Ở đây chúng tôi xây dựng ứng dụng Web để giao tiếp với API trong hiển thị cầu thủ và cho phép người dùng xây dựng đội hình.",
-                            "features": [
-                                {
-                                    "content": "Giao diện cho người dùng xem thông tin cầu thủ mùa 2020."
-                                },
-                                {
-                                    "content": "Giao diện cho người dùng tạo và xây dựng đội hình bằng cách kéo thả icon cầu thủ vào sân banh"
-                                },
-                                {
-                                    "content": "Cho người dùng so sánh với người dùng khác."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "name": "Building FIFA 20 Team",
-            "image_Url": "https://media.playstation.com/is/image/SCEA/fifa-20-champions-edition-01-ps4-us-05sep19?$native_nt$"
-        }
+  "technologies": [
+      {
+          "id": 1,
+          "name": "C#",
+          "project_number": 7
+      },
+      {
+          "id": 2,
+          "name": "Angular",
+          "project_number": 10
+      }
+  ],
+  "project_done": [
+      {
+          "id": 1,
+   
+          "subject": [
+              {
+                  "id": 1,
+                  "name": "C#"
+              },
+              {
+                  "id": 2,
+                  "name": "Java"
+              },
+              {
+                  "id": 3,
+                  "name": "ReactJS"
+              }
+          ],
+          "description": [
+              {
+                  "id": 1,
+                  "content": "Automated Testing cho phép bạn khai báo các test script, test case và đưa nó vào để test cho app của bạn. Ở đây chúng tôi chia làm 4 thành phần chính để cấu tạo nên một ứng dụng Automated Testing. Bao gồm :",
+                  "component": [
+                      {
+                          "content": "Thành phần đầu tiên là Java Application. Ở đây chúng tôi xây dựng ứng dụng API Java với Framework là Spring Boot",
+                          "features": [
+                              {
+                                  "content": "Các API cung cấp chức năng cho thành phần Web Application (ReactJS)"
+                              },
+                              {
+                                  "content": "Các API cung cấp chức năng cho thành phần Desktop Application (C#)"
+                              },
+                              {
+                                  "content": "Có hệ thống tự động chấm điểm và trả kết quả dựa vào Azure DevOps và kết hợp với một số công cụ để kiểm tra về coding convention theo yêu cầu của giảng viên"
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần kế tiếp là Desktop Application (Winform C#). Ở đây chúng tôi xây dựng ứng dụng Desktop để giao tiếp với API trong việc nộp bài và lấy kết quả.",
+                          "features": [
+                              {
+                                  "content": "Giao diện cho sinh viên làm bài, nộp bài, xem kết quả."
+                              },
+                              {
+                                  "content": "Giao diện cho giảng viên tạo bài thực hành, xem danh sách sinh viên làm bài, trả điểm về cho sinh viên sau khi đã chấm xong."
+                              },
+                              {
+                                  "content": "Sinh viên và Giảng viên giao tiếp thông qua TCP/IP. Đảm bảo rằng sự kết nối sẽ không bị lộ ra bằng cách mã hóa kết nối bằng key."
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần thứ ba là Front-End Web Application (ReactJS). Ở đây chúng tôi xây dựng ứng dụng Web để giao tiếp với API trong việc tạo các test script,test case cho mục đích test các bài thực hành.",
+                          "features": [
+                              {
+                                  "content": "Giao diện cho giảng viên thực hiện tạo bài thực hành và các test script, test case."
+                              },
+                              {
+                                  "content": "Giao diện cho người quản lý tạo ra các hành động (action) để cho giảng viên có thể sử dụng tạo ra test script"
+                              },
+                              {
+                                  "content": "Giao diện cho giảng viên xem lại các test script, test case đã tạo và tải về cho mục đích thực hiện việc test các bài thực hành."
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần thứ tư là Azure DevOps. Ở đây chúng tôi dựa vào việc xử lý các pipelines mà Azure cung cấp sẵn để thực hiện việc Automated Testing.",
+                          "features": [
+                              {
+                                  "content": "Các pipelines được tạo sẵn cho người dùng."
+                              },
+                              {
+                                  "content": "Tự động chạy pipelines khi có sự thay đổi ở Repository đã cấu hình."
+                              },
+                              {
+                                  "content": "Các API cho việc lấy dữ liệu sau khi đã test thành công."
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "name": "Automated Testing",
+          "image_Url": "https://www.forecast.app/hubfs/New%20Website%20/integrations-logos/Azure%20DevOps.png"
+      },
+      {
+          "id": 2,
+          "subject": [
+              {
+                  "id": 1,
+                  "name": "C#"
+              },
+              {
+                  "id": 2,
+                  "name": "Angular"
+              }
+          ],
+          "description": [
+              {
+                  "id": 1,
+                  "content": "Building Team FIFA 20 cho phép bạn xây dựng một đội hình cầu thủ mùa 2020 theo ý muốn của bạn và một đội bóng hoàn chỉnh sẽ có 11 cầu thủ gồm 3 chỉ số tổng là phòng thủ, tấn công và trung vệ. Ứng dụng được xây dựng trên :",
+                  "component": [
+                      {
+                          "content": "Thành phần đầu tiên là .NET Core Application. Ở đây chúng tôi xây dựng ứng dụng API Web với Framework là .NET CORE",
+                          "features": [
+                              {
+                                  "content": "Các API cung cấp chức năng cho thành phần Web Application (Angular JS)"
+                              },
+                              {
+                                  "content": "Các API cung cấp chức năng cho thành phần thu thập dữ liệu cầu thủ từ nhiều trang web (Crawling data)"
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần kế tiếp là Web Application (Angular 8). Ở đây chúng tôi xây dựng ứng dụng Web để giao tiếp với API trong hiển thị cầu thủ và cho phép người dùng xây dựng đội hình.",
+                          "features": [
+                              {
+                                  "content": "Giao diện cho người dùng xem thông tin cầu thủ mùa 2020."
+                              },
+                              {
+                                  "content": "Giao diện cho người dùng tạo và xây dựng đội hình bằng cách kéo thả icon cầu thủ vào sân banh"
+                              },
+                              {
+                                  "content": "Cho người dùng so sánh với người dùng khác."
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "name": "Building FIFA 20 Team",
+          "image_Url": "https://media.playstation.com/is/image/SCEA/fifa-20-champions-edition-01-ps4-us-05sep19?$native_nt$"
+      }
+  ],
+  "project_working": [
+      {
+          "id": 1,
+          "subject": [
+              {
+                  "id": 1,
+                  "name": "C#"
+              },
+              {
+                  "id": 2,
+                  "name": "AngularJS"
+              }
+          ],
+          "description": [
+              {
+                  "id": 1,
+                  "content": "Automated Testing cho phép bạn khai báo các test script, test case và đưa nó vào để test cho app của bạn. Ở đây chúng tôi chia làm 4 thành phần chính để cấu tạo nên một ứng dụng Automated Testing. Bao gồm :",
+                  "component": [
+                      {
+                          "content": "Thành phần đầu tiên là Java Application. Ở đây chúng tôi xây dựng ứng dụng API Java với Framework là Spring Boot",
+                          "features": [
+                              {
+                                  "content": "Các API cung cấp chức năng cho thành phần Web Application (ReactJS)"
+                              },
+                              {
+                                  "content": "Các API cung cấp chức năng cho thành phần Desktop Application (C#)"
+                              },
+                              {
+                                  "content": "Có hệ thống tự động chấm điểm và trả kết quả dựa vào Azure DevOps và kết hợp với một số công cụ để kiểm tra về coding convention theo yêu cầu của giảng viên"
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần kế tiếp là Desktop Application (Winform C#). Ở đây chúng tôi xây dựng ứng dụng Desktop để giao tiếp với API trong việc nộp bài và lấy kết quả.",
+                          "features": [
+                              {
+                                  "content": "Giao diện cho sinh viên làm bài, nộp bài, xem kết quả."
+                              },
+                              {
+                                  "content": "Giao diện cho giảng viên tạo bài thực hành, xem danh sách sinh viên làm bài, trả điểm về cho sinh viên sau khi đã chấm xong."
+                              },
+                              {
+                                  "content": "Sinh viên và Giảng viên giao tiếp thông qua TCP/IP. Đảm bảo rằng sự kết nối sẽ không bị lộ ra bằng cách mã hóa kết nối bằng key."
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần thứ ba là Front-End Web Application (ReactJS). Ở đây chúng tôi xây dựng ứng dụng Web để giao tiếp với API trong việc tạo các test script,test case cho mục đích test các bài thực hành.",
+                          "features": [
+                              {
+                                  "content": "Giao diện cho giảng viên thực hiện tạo bài thực hành và các test script, test case."
+                              },
+                              {
+                                  "content": "Giao diện cho người quản lý tạo ra các hành động (action) để cho giảng viên có thể sử dụng tạo ra test script"
+                              },
+                              {
+                                  "content": "Giao diện cho giảng viên xem lại các test script, test case đã tạo và tải về cho mục đích thực hiện việc test các bài thực hành."
+                              }
+                          ]
+                      },
+                      {
+                          "content": "Thành phần thứ tư là Azure DevOps. Ở đây chúng tôi dựa vào việc xử lý các pipelines mà Azure cung cấp sẵn để thực hiện việc Automated Testing.",
+                          "features": [
+                              {
+                                  "content": "Các pipelines được tạo sẵn cho người dùng."
+                              },
+                              {
+                                  "content": "Tự động chạy pipelines khi có sự thay đổi ở Repository đã cấu hình."
+                              },
+                              {
+                                  "content": "Các API cho việc lấy dữ liệu sau khi đã test thành công."
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "name": "MatxiCorp",
+          "image_Url": "https://matxicorp.com/administrator/Images/logo.png"
+      }
+  ],
+  "project_github":[
+      {
+          "id":1,
+          "name":"Farmer",
+          "image":"farmer.jpg",
+          "link_github":"https://github.com/PhatLTSE62882/Farmer"
 
-    ]
+      },
+      {
+          "id":2,
+          "name":"Workflow Management",
+          "image":"wofkflow.png",
+          "link_github":"https://github.com/lamthanhphat98/WorkflowManagement"
+
+      }
+  ],
+  "current_project_done":{
+      "number_of_project":9
+  },
+  "technology_filter":[
+      {
+          "id":1,
+          "subject":"C#",
+          "project":[
+              {
+                  "id":1,
+                  "name":"Building FIFA 20 Team",
+                  "image_url":"https://media.playstation.com/is/image/SCEA/fifa-20-champions-edition-01-ps4-us-05sep19?$native_nt$"
+              },
+              {
+                  "id":2,
+                  "name":"Automated Testing",
+                  "image_url":"https://media.playstation.com/is/image/SCEA/fifa-20-champions-edition-01-ps4-us-05sep19?$native_nt$"
+              }]
+      },
+       {
+          "id":2,
+          "subject":"Angular",
+          "project":[
+              {
+                  "id":1,
+                  "name":"Building FIFA 20 Team",
+                  "image_url":"https://media.playstation.com/is/image/SCEA/fifa-20-champions-edition-01-ps4-us-05sep19?$native_nt$"
+              }
+          ]
+      }
+  ]
+
 }
